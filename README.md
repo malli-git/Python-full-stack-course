@@ -17,6 +17,6 @@ day16 - try_Except
 day17 - snake_ladder
 day18 - class_obj
 day19 - constructor,inheritance,polymorphism
-day20 - dataabstraction
+day20 - polymorphism
 day21 - weeak3questions
 day22 - cal,library_system,main
