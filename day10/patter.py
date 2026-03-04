@@ -1,0 +1,116 @@
+ #pattern
+
+'''n=int(input("enter the size:"))
+for row in range(n):
+    for col in range(n):
+        print(col,end='')
+    print()'''
+
+
+'''    
+n=int(input("enter the size:"))
+num=1
+for row in range(n):
+    for col in range(n):
+        print(num,end='')
+        num+=1
+    print()'''
+
+'''n=int(input("enter the size:"))
+num=0
+for row in range(n):
+    for col in range(n):
+        print(num,end=' ')
+        num+=1
+    print()'''
+
+'''n=int(input("enter the size:"))
+for row in range(n):
+    for col in range(n):
+        print(row+col,end=' ')
+        
+    print()'''
+
+'''n=int(input("enter the size:"))
+for row in range(n):
+    for col in range(n):
+        if (row+col)%2==0:
+           print(0,end=' ')
+        else:
+            print('x',end=' ')
+    print()'''
+
+'''n=int(input("enter the size:"))
+for row in range(n):
+    for col in range(row+1):
+        print('*',end='')
+    print()'''
+
+'''n=int(input("enter the size:"))
+for row in range(n):
+    for col in range(n-row):
+        print('*',end='')
+    print()'''
+
+'''n=int(input("enter the size:"))
+for row in range(n):
+    for spc in range(n-row-1):
+        print(' ',end=' ')
+    for col in range(row+1):
+        print('*',end=' ')
+    print() '''
+
+'''n=int(input("enter the size:"))
+for row in range(n):
+    for spc in range(row+1):
+        print(' ',end=' ')
+    for col in range(n-row-1):
+        print('*',end=' ')
+    print() '''
+
+'''n=int(input("enter the size:"))
+for row in range(n*2):
+    if row<n:
+        print('*'*(row+1))
+    else:
+        print('*' *(2*n-row))
+    print()'''
+'''
+n=int(input("Enter the size:"))
+for row in range(n):
+    for col in range(n):
+        if row==0 or col==0 or row==n-1 or col==n-1:
+            print('*',end=' ')
+        else:
+            print(' ',end=' ')
+    print()'''
+
+
+'''n=int(input("Enter the size:"))
+for row in range(n):
+    for col in range(n):
+        if row==0 or col==0 or row==n-1 or col==n-1 or row==n//2 or col==n//2:
+            print('*',end=' ')
+        else:
+            print(' ',end=' ')
+    print()'''
+
+'''n=int(input("Enter the size:"))
+for row in range(n):
+    for col in range(n):
+        if row==0 or row==n-1 or row+col==n-1:
+            print('*',end=' ')
+        else:
+            print(' ',end=' ')
+    print()'''
+
+n=int(input("Enter the size:"))
+for row in range(n):
+    for col in range(n):
+        if row==col or  row+col==n-1:
+            print('*',end=' ')
+        else:
+            print(' ',end=' ')
+    print()
+
+
